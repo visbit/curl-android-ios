@@ -23,7 +23,7 @@ CURL_CSOURCES := \
 	http_proxy.c http.c http2.c idn_win32.c if2ip.c imap.c inet_ntop.c \
 	inet_pton.c krb5.c ldap.c llist.c md4.c md5.c memdebug.c mime.c mprintf.c \
 	multi.c netrc.c non-ascii.c nonblock.c nwlib.c nwos.c openldap.c parsedate.c \
-	pingpong.c pipeline.c pop3.c progress.c rand.c rtsp.c security.c select.c \
+	pingpong.c pop3.c progress.c rand.c rtsp.c security.c select.c \
 	sendf.c setopt.c sha256.c share.c slist.c smb.c smtp.c socks.c socks_gssapi.c \
 	socks_sspi.c speedcheck.c splay.c ssh.c ssh-libssh.c strcase.c strdup.c \
 	strerror.c strtok.c strtoofft.c system_win32.c telnet.c tftp.c timeval.c \
