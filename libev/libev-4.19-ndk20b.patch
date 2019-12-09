@@ -1,0 +1,11 @@
+--- ev_select.old	2019-12-09 14:46:12.000000000 -0500
++++ ev_select.c	2019-12-09 14:49:46.000000000 -0500
+@@ -47,7 +47,7 @@
+ #endif
+ 
+ #if defined(__ANDROID__) || defined(ANDROID)
+-typedef int fd_mask;
++//typedef int fd_mask; // Android NDK r20b typedef fd_mask to unsigned long
+ #endif
+ 
+ #ifndef EV_SELECT_USE_FD_SET
